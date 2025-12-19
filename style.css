@@ -8,8 +8,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: #0f0c29;
-  color: white;
+  background-color: lightcyan;
+  color: rgb(255, 255, 255);
   scroll-behavior: smooth;
 }
 
@@ -19,7 +19,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 3rem;
-  background-color: #0f0c29;
+  background-color: deepskyblue;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -29,7 +29,7 @@ nav {
 .logo {
   font-size: 1.9rem;
   font-weight: bold;
-  color: #42e695;
+  color: black;
 }
 
 .nav-links {
@@ -40,14 +40,14 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1rem;
-  color: white;
+  color: darkblue;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #42e695;
+  color: #000008;
 }
 
 /* Hero Section */
@@ -58,7 +58,7 @@ nav {
   flex-wrap: wrap;
   gap: 2rem;
   padding: 6rem 2rem;
-  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(to right, #001170, #050038, #030046);
 }
 
 .hero-text {
@@ -73,26 +73,26 @@ nav {
 }
 
 .hero-text .highlight {
-  color: #42e695;
+  color: rgb(250, 249, 210);
   font-weight: 800;
 }
 
 .hero-text h3 {
   font-size: 1.4rem;
-  color: #aaa;
+  color: #02bbff;
   margin-bottom: 1rem;
 }
 
 .hero-text p {
   font-size: 1rem;
-  color: #ddd;
+  color: #69fff0;
   margin-bottom: 2rem;
 }
 
 .hero-buttons .btn {
   margin-right: 1rem;
   padding: 0.8rem 1.5rem;
-  background-color: #42e695;
+  background-color: seashell;
   color: black;
   text-decoration: none;
   font-weight: bold;
@@ -102,13 +102,13 @@ nav {
 
 .hero-buttons .btn-outline {
   background: transparent;
-  color: #42e695;
-  border: 2px solid #42e695;
+  color: seashell;
+  border: 2px solid lightyellow;
 }
 
 .hero-buttons .btn:hover {
-  background-color: #1dd1a1;
-  color: white;
+  background-color: #093ba7;
+  color: rgb(0, 234, 255);
 }
 
 .hero-image {
@@ -122,7 +122,7 @@ nav {
   height: 320px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 30px rgba(23, 1, 56, 0.6);
   transition: transform 0.4s ease;
 }
 
@@ -136,7 +136,7 @@ nav {
 
 .hero-social a {
   margin-right: 1rem;
-  color: #42e695;
+  color: #fffc38;
   text-decoration: none;
   font-weight: bold;
 }
@@ -152,13 +152,13 @@ section {
 section h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #42e695;
+  color: #28a5ff;
   font-weight: 800;
 }
 
 /* About Section – Premium Glossy Style */
 .about {
-  background: linear-gradient(135deg, #1b1b2f, #2c2c3e);
+  background: linear-gradient(135deg, #000000, #00024a);
   border-radius: 20px;
   padding: 5rem 2rem;
   max-width: 1000px;
@@ -185,11 +185,11 @@ section h2 {
 
 /* Projects */
 .projects {
-  background-color: #0f0c29;
+  background-color: #0b0263;
 }
 
 .project-card {
-  background: #1e1e2f;
+  background: #000000;
   border-radius: 16px;
   padding: 2rem;
   max-width: 800px;
@@ -211,7 +211,7 @@ section h2 {
 }
 
 .project-card h3 {
-  color: #42e695;
+  color: #00eeff;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
@@ -229,13 +229,13 @@ section h2 {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  background-color: #42e695;
+  background-color: #00ccff;
   color: black;
   transition: all 0.3s ease;
 }
 
 .project-card a:hover {
-  background-color: #1dd1a1;
+  background-color: #ff9b10;
   color: white;
 }
 
@@ -259,7 +259,7 @@ section h2 {
 }
 
 .cv .btn {
-  background-color: #42e695;
+  background-color: #ffff28;
   color: black;
   padding: 0.9rem 1.7rem;
   border-radius: 10px;
@@ -271,7 +271,7 @@ section h2 {
 }
 
 .cv .btn:hover {
-  background-color: #1dd1a1;
+  background-color: #20f8ff;
   color: white;
   transform: scale(1.05);
 }
@@ -304,7 +304,7 @@ section h2 {
 }
 
 .contact a:hover {
-  color: #42e695;
+  color: #2af8ff;
 }
 
 /* Responsive */
