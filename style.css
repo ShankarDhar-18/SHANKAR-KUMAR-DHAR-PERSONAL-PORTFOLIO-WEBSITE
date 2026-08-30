@@ -90,7 +90,7 @@ nav {
 }
 
 .hero-buttons .btn {
-  margin-right: 1rem;
+  margin-right: 2rem auto;
   padding: 0.8rem 1.5rem;
   background-color: seashell;
   color: black;
@@ -136,8 +136,8 @@ nav {
 
 .hero-social a {
   margin-right: 1rem;
-  color: #fffc38;
-  text-decoration: none;
+  color: seashell;
+  text-decoration: initial;
   font-weight: bold;
 }
 
@@ -242,8 +242,59 @@ section h2 {
   background-color: #ff9b10;
   color: white;
 }
+.publications {
+  background-color: blue;
+  background: linear-gradient(to bottom right, #000000, #0b0263);
+}
 
-/* Resume Section – Modern Polished Finish */
+.publication-card {
+  background: seashell;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition:
+    transform 0.6s ease,
+    box-shadow 0.3s ease;
+  text-align: middle;
+}
+
+.publication-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px lightyellow;
+}
+
+.publication-card img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem auto;
+}
+
+.publication-card h3 {
+  color: #00eeff;
+  font-size: 2rem auto;
+  margin-bottom: 0.5rem;
+}
+
+.publication-card p {
+  color:black;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.publication-card a {
+  display: inline-flex;
+  margin: 0.7rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: yellow;
+  color: black;
+  transition: all 0.3s ease;
+}
 .cv {
   background: linear-gradient(to bottom right, #1a1a2e, #141423);
   border-radius: 20px;
